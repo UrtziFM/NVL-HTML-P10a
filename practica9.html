@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Practica10a</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <p>Hello!</p>
+        <p>Could you mind fill this survey about our product in?</p>
+        <nav>
+  <form method="post" action="miservidor.php">
+    <div>
+      <p>Personal information</p>    
+      <label for=”nombre”>Name:</label>
+      <input id=”nombre” type=”text”>
+    </div>
+    <div>
+      <label for=”ape1”>First Surname:</label>
+      <input id=”ape1” type=”text”>
+    </div>
+    <div>
+      <label for=”ape2”>Second Surname:</label>
+      <input id=”ape2” type=”text”>
+    </div>
+    <div>
+      <label for=”edad”>Age:</label>
+      <input id=”edad” type=”number”>
+    </div>
+    <div>
+      <label for=”lugar”>Birth Place:</label>
+      <input id=”lugar” type=”text”>
+   </div>
+      <div>
+      <label for=”postal”>Zip Code:</label>
+      <input id=”postal” type=”number”>
+   </div>
+   <div>
+      <label for=”pais”>Birth Country:</label>
+      <select id=”pais”>
+        <option value=”ES”>Spain</option>
+        <option value=”IT”>Italy</option>
+        <option value=”FR”>France</option>
+      </select>
+  </div>
+  <div>
+      <label for=”sexo”>Gender:</label>
+      <select id="sexo">
+       <option value=”M”>Man</option>
+       <option value=”W”>Woman</option>
+      </select>
+  </div>
+      <div>
+      <label for=”email”>Email:</label>
+      <input id=”email” type=”text”>
+   </div>
+      <p>Let's Talk about our product</p>
+  <div>
+      <label for=”satisfaccion”>Satisfaction Level with our Product:</label>
+      <select id=”satisf”>
+        <option value=”1”>1</option>
+        <option value=”2”>2</option>
+        <option value=”3”>3</option>
+        <option value=”4”>4</option>
+        <option value=”5”>5</option>
+      </select>
+  </div>
+  <div>
+    <label for=”comentario”>What's your positive feedback about it?:</label>
+    <textarea id=”comentario”></textarea>
+  </div>
+      <div>
+    <label for=”comentario”>What's your negative feedback about it?:</label>
+    <textarea id=”comentario”></textarea>
+  </div>
+  <div>
+      <label for=”satisfaccion”>Satisfaction Level with Delivery:</label>
+      <select id=”satisf”>
+        <option value=”1”>Excelent</option>
+        <option value=”2”>Good</option>
+        <option value=”3”>Regular</option>
+        <option value=”4”>Bad</option>
+      </select>
+  </div>
+  <p>
+      Satisfaction Level with our Brand:
+        <br>
+      <label><input type=”radio” name="Brand" value="1">Excelent</label>
+        <br>
+      <label><input type=”radio” name="Brand" value="2">Good</label>
+        <br>
+      <label><input type=”radio” name="Brand" value="3">Regular</label>
+        <br>
+      <label><input type=”radio” name="Brand" value="4">Bad</label>
+  </p>
+  <p>Now, please give us your answers here:</p>   
+      <p>
+      <input type=”submit” value=”Enviar”>
+      </p>
+</form>
+        </nav>
+    </body>
+</html>
+        
